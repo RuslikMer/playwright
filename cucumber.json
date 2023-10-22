@@ -1,0 +1,7 @@
+{
+    "default": {
+        "requires": ["./features/*.ts", "./pages/*.ts", "steps/*.ts"],
+        "parallel": 2,
+        "format": ["html:cucumber-report.html"]
+    }
+}

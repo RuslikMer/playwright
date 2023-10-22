@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS", // or "ESNext" for ES modules
+      "target": "ESNext", // or the ECMAScript version you want to target
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist", // specify your output directory
+      "rootDir": ".", // specify your source directory
+      "strict": true
+    },
+    "include": [
+      "steps/*.ts"
+    ]
+  }
+  
